@@ -6,6 +6,5 @@ This app requires the Sinatra gem.
 - App runs on localhost:8080
 
 Requirements:
-    - Accept a POST request to the route “/test”, which accepts one argument “string_to_cut”.
-
-    - Return a JSON object with the key “return_string” and a string containing every third letter from the original string.
+- Accept a POST request to the route “/test”, which accepts one argument “string_to_cut”.
+- Return a JSON object with the key “return_string” and a string containing every third letter from the original string.
