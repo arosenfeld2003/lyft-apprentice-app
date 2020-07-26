@@ -17,7 +17,7 @@ def cut_string(str)
 end
 
 def app
-  get '/' do
+  get '/test' do
     erb :index
   end
 
