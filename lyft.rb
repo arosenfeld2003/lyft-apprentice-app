@@ -21,7 +21,7 @@ def app
     erb :index
   end
 
-  # Return a JSON object:{“return_string”: "cut_string"}
+  # Return a JSON object:{“return_string”: cut_string}
   post '/test' do
     cut_str = cut_string(params[:return_string])
     str_to_parse = "{\"return_string\": \"#{cut_str}\"}"
